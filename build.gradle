@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "io.ratpack:ratpack-gradle:1.8.0"
+    }
+}
+
+apply plugin: "io.ratpack.ratpack-java"
+apply plugin: "java"
+apply plugin: "idea"
+
+//plugins {
+//    id "java"
+//}
+
+group 'com.lemonoflime'
+version '0.0.1'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation ratpack.dependency("guice")
+    runtime "org.slf4j:slf4j-simple:1.7.30"
+}
+
+mainClassName = "com.lemonoflime.rpbackground.Main"
