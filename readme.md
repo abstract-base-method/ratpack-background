@@ -23,8 +23,9 @@ repo should serve **_only as an example_**.
 
 ## Where the action is
 
-`src/main/java/com/lemonoflime/rpbackground/services/InMemoryStorageService.java` contains a guided documentation walk-through
-of the code but there is a CRUD API to interact with objects in memory contained by the service. 
+[`src/main/java/com/lemonoflime/rpbackground/services/InMemoryStorageService.java`](https://github.com/lemoney/ratpack-background/blob/master/src/main/java/com/lemonoflime/rpbackground/services/InMemoryStorageService.java) 
+contains a guided documentation walk-through of the code but there is a CRUD API to interact with objects in memory 
+contained by the service. 
 
 ## Poking at it
 
